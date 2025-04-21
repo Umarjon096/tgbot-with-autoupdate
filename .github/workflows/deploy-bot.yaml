@@ -1,5 +1,10 @@
 name: Deploy Bot
-on: [push]
+on:
+  push:
+    paths:
+      - bot.py
+      - bot.env
+
 jobs:
   build:
     name: Build
