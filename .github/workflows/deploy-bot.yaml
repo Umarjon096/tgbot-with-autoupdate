@@ -12,4 +12,4 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: cd /var/bot && git pull origin main
+          script: cd /var/bot && git pull origin main && service tgbot restart
