@@ -3,7 +3,6 @@ on:
   push:
     paths:
       - bot.py
-      - bot.env
 
 jobs:
   build:
