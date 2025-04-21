@@ -12,4 +12,4 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: cd /var/bot && git pull origin main && pip install -r requirements.txt && service tgbot restart
+          script: cd /var/bot && git pull origin main && service tgbot restart
